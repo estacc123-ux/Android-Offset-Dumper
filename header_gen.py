@@ -9,7 +9,6 @@ import datetime
 def generate_header(results, tva, binary_path, arch="ARM64"):
     lines = []
 
-    # header comment
     lines.append("// Dump")
     # lines.append(f"// Source: {binary_path}")
     lines.append(f"// Source: libroblox.so")
